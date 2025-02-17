@@ -1,0 +1,42 @@
+.container-fluid  {
+    background-color: #1E90FF;
+}
+.row {
+    background-color: #002c59;
+    color: #E0EEC6;   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title {
+    opacity: 0.75;
+    background-color: #C2A83E;
+    color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.pbmimage {
+    padding: 20px;
+    border-radius: 10%;
+}
+.spices {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.video {
+    text-align: center;
+}
+.youtube {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.reference {
+    text-align: center;
+}
+.bestrecipes {
+    text-align:center;
+}
+.backtotop {
+    text-align: center;
+    margin-top: 30px;
+}
