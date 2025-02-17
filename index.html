@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Personal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #D5D6D6;
+        }
+        
+        .jumbotron {
+            background-color: #f8f9fa;
+        }
+        .navbar, .footer {
+            background-color: #343a40;
+        }
+        .navbar a, .footer a {
+            color: #fff;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+    color: blue; 
+        }
+        #contactme {
+            color:white;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills-list {
+            columns: 2; /* This will split the list into two columns */
+            column-gap: 40px; /* Adds space between the columns */
+        }
+        .skills-list ul {
+            padding-left: 20px; /* Adjusts padding for nested list */
+        }
+        .skills-list ul ul {
+            margin-left: 20px; /* Indents nested items */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contactme">Contact</a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <span class="nav-link">Recipe Projects</span>
+                        <div class="dropdown-content ">
+                            <a href="recipe1.html" target="_blank">Recipe 1 - HTML</a><br>
+                            <a href="recipe2.html" target="_blank">Recipe 2 - CSS</a><br>
+                            <a href="recipe3.html" target="_blank">Recipe 3 - Bootstrap</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQHHcwMw3v_SSA/profile-displayphoto-shrink_200_200/B56ZRXB7DKHQAg-/0/1736626909904?e=1744243200&v=beta&t=7u7E35d1ptvut-VOStynawTtxKJkEgOFa7riV51Apxk" alt="Profile Picture" class="img-fluid rounded-circle" width="250" height="250">
+                </div>
+                <div class="col-md-8" >
+                    <h1 class="display-4" id="about" >Pratyush Vijay</h1>
+                    <p class="lead">I am a member of the Lane Tech College Prep Class of 2028 and an active participant in the Alpha STEM Program. I am involved in various extracurricular activities, including Robotics, Future Business Leaders of America, and the Cybersecurity Club. Currently, I am preparing for the Lane Tech Annual STEM Fair, scheduled for May.
+
+                        My academic coursework includes Web Development 1, Honors English, AP Human Geography, Honors Geometry/Integrated Math, Honors Biology, RS1 Health/PE, and Spanish 1. So far, my experience at Lane Tech has been both engaging and rewarding.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Awards Section -->
+    <section id="awards" class="container-fluid my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container mt-5">
+                    <div class="card" style="width: 67rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Academics</h5>
+                            <p class="card-text">Check out my Academics</p>
+                            <a href="academics.html" class="btn btn-primary" target="_blank">Go to Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Additional Sections -->
+     <section id="additional-sections" class="container">
+        <div class="row">
+            <div class="col-md-12 section-content">
+                <h3 class="section-title">Skills</h3>
+                <div class="skills-list">
+                    <ul>
+                        <li>Google Suite</li>
+                        <li>Microsoft 365</li>
+                        <li>Problem Solving</li>
+                        <li>Organization</li>
+                        <li>Research</li>
+                        <li>Computer Science
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Robotics</li>
+                            </ul>
+                        </li>
+                        <li>Communication</li>
+                        <li>Typing: 80 WPM Average</li>
+                        <li>Writing</li>
+                        <li>Collaboration</li>
+                        <li>Flexibility</li>
+                        <li>Ability to Adjust</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 section-content">
+                <h3 class="section-title">Volunteering</h3>
+                <ul>
+                    <li>Bank of America – 2024 Chicago Marathon <br>
+                        I contributed to the 2024 Chicago Marathon by assisting with the setup of stands and tables. Additionally, I prepared large quantities of Gatorade, organized the distribution area, and handed out refreshments to runners throughout the event.
+                    </li>
+                    <li>Puerto Rico - Volunteer Work<br>
+                        During my school's trip to Puerto Rico, I volunteered at El Comedor de la Kennedy, a nonprofit organization dedicated to supporting individuals in need. I helped package food bundles for both children and adults. I also worked with a local nonprofit to replant mangrove trees, a species vital to maintaining biodiversity in the region's wetlands. Later that day, I assisted in removing storm debris from a small forest preserve—a challenging but fulfilling task due to the intense heat and the physical effort required to clear heavy objects.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 section-content">
+                <img src="https://media.licdn.com/dms/image/v2/D562DAQESTaJDfWOtBg/profile-treasury-image-shrink_160_160/B56ZTobW_EHoAk-/0/1739066274907?e=1739674800&v=beta&t=JRBOKvzfhdC7F3tDWEaLJzpAn0_z0xfEdsD21EpknRE"  class="img-fluid" width="900px" height="500px" alt="BofA" >
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6 section-content">
+                <h3 class="section-title">Education</h3>
+                <dl>
+                    <dt>Student at Lane Tech </dt>
+                    <dh>Lane Tech College Prep High School
+                        Aug 2024 - Jun 2028
+                        <br>
+                        Grade: 9
+                        <br>
+                        Activities and societies: Alpha STEM Program 
+                        FBLA | Robotics | Cybersecurity
+                        <br> 
+                        Decatur Classical School Class of 2024
+                    </dh>
+                </dl>
+            </div>
+            <div class="col-md-6 section-content">
+                <h3 class="section-title">Current activity and interests</h3>
+                <p> I'm currently learning HTML, CSS, and Javascript. I have started a small side hustle through Amazon Affiliate links, and I am also learning about personal finance (like IRA's, Investing, etc.) I am interested in AI mostly because I use it very frequently, and I am also curious about how they work. My interests also stretch to engineering primarily because I like to model structures, and to automotives because I know a good amount about cars. Outside of school, I love to play videogames with friends, draw, read, ride my bike, go to the gym and also practice Taekwondo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Nav Bar -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="col-md-6">
+                <div>
+                    <h5 id="contactme">Contact Me</h5>
+                    <img src="https://th.bing.com/th/id/OIP.b5oDvUVU5UVN4cefTJGq3wHaHa?w=174&h=180&c=7&r=0&o=5&pid=1.7" alt="LinkedIn" width="25" height="25">
+                    <a href="https://www.linkedin.com/in/pratyushvijay/" target="_blank">LinkedIn | </a>
+                    <a href="mailto:pkvijay@cps.edu" target="_blank">School Email | </a>
+                    <a href="mailto:pratyushkvijay@gmail.com" target="_blank">Personal Email | </a>
+                    <a href="tel:3129183197">Phone - (312)-918-3197</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="text-muted">© 2025 Pratyush Vijay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

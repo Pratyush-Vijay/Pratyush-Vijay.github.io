@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Academics</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #D5D6D6;
+        }
+        
+        .jumbotron {
+            background-color: #f8f9fa;
+        }
+        .navbar, .footer {
+            background-color: #343a40;
+        }
+        .navbar a, .footer a {
+            color: #fff;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+    color: blue;
+        }
+        .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+            height: 100%;
+            width: 100%
+        }
+
+        #contactme {
+            color:white;
+        }
+        #awards {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" >Home Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contactme">Contact</a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <span class="nav-link">Recipe Projects</span>
+                        <div class="dropdown-content ">
+                            <a href="recipe1.html" target="_blank">Recipe 1 - HTML</a><br>
+                            <a href="recipe2.html" target="_blank">Recipe 2 - CSS</a><br>
+                            <a href="recipe3.html" target="_blank">Recipe 3 - Bootstrap</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Awards Section -->
+    <section id="awards" class="container-fluid my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Awards</h5>
+                        <p class="card-text">Check out my achievements and recognitions.</p>
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#awardCarousel">View Awards</button>
+                        <div id="awardCarousel" class="collapse mt-3">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://media.licdn.com/dms/image/v2/D562DAQH7NwiFpAuTbg/profile-treasury-image-shrink_160_160/profile-treasury-image-shrink_160_160/0/1736026769446?e=1739458800&v=beta&t=CGBCh4ehXOk6Wuy8yNs9Vm4GeyX1RakirR0gcQJzoQw" class="d-block w-100" alt="FBLA Award">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://media.licdn.com/dms/image/v2/D562DAQHMw0wkFHx2wQ/profile-treasury-image-shrink_1920_1920/B56ZToVECIGoAg-/0/1739064625317?e=1739671200&v=beta&t=HHvKMGqayl779urp8AZK43H9PHJ8TR5wHG4Rbj5Djc8" class="d-block w-100" alt="Best Player Award">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://media.licdn.com/dms/image/v2/D562DAQFUCdh1uHFhpg/profile-treasury-image-shrink_160_160/B56ZToXnBcGUAk-/0/1739065291994?e=1739671200&v=beta&t=AhBYT9osqsmfVk1OP8LRrqQXvwodAJg87qbgBFu7jgU" class="d-block w-100" alt="Kumon Gold Award">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Additional Sections -->
+     <section id="additional-sections" class="container">
+        <div class="row">
+           
+            <div class="col-md-12 section-content">
+                <h3 class="section-title">Courses</h3>
+                <ul>
+                    <li>AP Human Geography</li>
+                    <li>Honors Biology I</li>
+                    <li>Honors English I</li>
+                    <li>PE/Health I</li>
+                    <li>Honors Geometry/Integrated Math II</li>
+                    <li>Spanish I</li>
+                    <li>Web Development I</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row mb-3">
+            <div class="col-md-6 section-content">
+                <h3 class="section-title">Education</h3>
+                <dl>
+                    <dt>Student at Lane Tech </dt>
+                    <dh>Lane Tech College Prep High School
+                        Aug 2024 - Jun 2028
+                        <br>
+                        Grade: 9
+                        <br>
+                        Activities and societies: Alpha STEM Program 
+                        FBLA | Robotics | Cybersecurity
+                        <br> 
+                        Decatur Classical School Class of 2024
+                    </dh>
+                </dl>
+            </div>
+            <div class="col-md-6 section-content">
+                <h3 class="section-title">Current activity and interests</h3>
+                <p> I'm currently learning HTML, CSS, and Javascript. I have started a small side hustle through Amazon Affiliate links, and I am also learning about personal finance (like IRA's, Investing, etc.) I am interested in AI mostly because I use it very frequently, and I am also curious about how they work. My interests also stretch to engineering primarily because I like to model structures, and to automotives because I know a good amount about cars. Outside of school, I love to play videogames with friends, draw, read, ride my bike, go to the gym and also practice Taekwondo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Nav Bar -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="col-md-6">
+                <div>
+                    <h5 id="contactme">Contact Me</h5>
+                    <a href="https://www.linkedin.com/in/pratyushvijay/" target="_blank">LinkedIn | </a>
+                    <a href="mailto:pkvijay@cps.edu" target="_blank">School Email | </a>
+                    <a href="mailto:pratyushkvijay@gmail.com" target="_blank">Personal Email | </a>
+                    <a href="tel:3129183197">Phone - (312)-918-3197</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="text-muted">© 2025 Pratyush Vijay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
